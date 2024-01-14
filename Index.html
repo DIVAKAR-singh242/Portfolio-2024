@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UX-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Divakar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/254ea139c8.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header ">Home</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <!-- ye container wale se ek trh ka box bnaya jisme hum menu creat krenge -->
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi,I'm<span>Divakar</span><BR>from INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <!-- yha se hum about bna rhe h -->
+    <div id="about">
+     <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                
+                <img src="images/about.jpg" alt="yha pe meri photo honi chaiye">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <P>
+                        oidfhaiwefahiwuiawhefiawhefiuahewibcaiwefawev
+                        adr
+                </P>
+                <div class="tab-titels">
+                    <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                    <P class="tab-links" onclick="opentab('experience')">Experience</P>
+                    <P class="tab-links" onclick="opentab('education')">Education</P>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design web application</li>
+                        <li><span>web develpoment</span><br>Design web application</li>
+                        <li><span>app development</span><br>Design web application</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design web application</li>
+                        <li><span>web develpoment</span><br>Design web application</li>
+                        <li><span>app development</span><br>Design </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design web application</li>
+                        <li><span>web </span><br>Design web application</li>
+                        <li><span>app development</span><br>Design web application</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <!-- /*yha se hum services bna rhe h*/ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <!-- /*yha pe humne ye code dala h fontaswome website se nikal ke */ -->
+                    <h2>Web Design</h2>
+                    <P>
+                        description for the first servics</P>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>ui/uc design</h2>
+                    <P>
+                        description for the first servics</P>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-ice-cream"></i>
+                    <h2>App design</h2>
+                    <P>
+                        description for the first servics</P>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Work-1.png">
+                    <div class="layer">
+                        <h3>social media application</h3>
+                        <p>ye ek social media app h xdgtthxfghdxgfh xgtxhxdfghdzf rgasdgzasdfgzd </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <!-- yha pe images m mere work ki picture ani chaiye -->
+                <div class="work">
+                    <img src="images/Work-2.png">
+                    <div class="layer">
+                        <h3>Mobile app</h3>
+                        <p>ye ek social media app h asdfgaergarhar ar ga eg as g a ga r ga r g  sed</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work-3.png">
+                    <div class="layer">
+                        <h3>music</h3>
+                        <!-- yha pe hume description add kiya or usme ek link ka icon bhi lga diya h -->
+                        <p>ye ek social media awer ga erg a rg awe rg AR G A EG app h</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div> 
+            <a href="#" class="btn">see more</a>
+            <!-- yha pe humne see more ka button bnaya h btn ko use karke -->
+        </div>
+    </div>
+    <!-- ----------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- ye contact m left or right row bna rhe h -->
+               <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>  contact@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  contact number</p>
+
+                <div class="social-icon">
+                    <a href="yha pe social media ka link ayga"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                </div>
+                <!-- yha pe humne apna CV ka link diya h or uspe click karte hi vo broweser m hi download hojayga or sath m humne uska button bhi bnaya h -->
+                <a href="images/CV.docx" download class="btn btn2"> DOWNLOAD CV</a>
+               </div>
+               <div class="contact-right">
+                <form>
+                    <input type="text" name="NAME" placeholder="YOUR NAME" required>
+                    <input type="email" name="Email" placeholder="YOUR EMAIL" required>
+                    <textarea name="Message" rows="7" placeholder="YOUR MESSAGE"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+               </div>
+            </div>
+        </div>
+        <marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu"> 💜   💜  💜  💜  💜  💜  💜 💜  💜  💜  💜 💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜 💜  💜  💜  💜  💜  💜  💜  💜   💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜  💜 </div></marquee>
+        <div class="copyright">
+            <p class="text">©Copyright 2023. All rights reserved | Made by <i class="fa-solid fa-heart-crack"></i> Divakar</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <!-- niche wali script hum log choti screens ke liye likh rhe h -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
